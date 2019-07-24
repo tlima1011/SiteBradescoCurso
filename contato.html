@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+<head > 
+	<meta charset="utf-8">
+	<title>Code - Contato</title> 
+    <link rel="icon" href="imagens/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/folhadeestilo.css ">
+</head> 
+<body class='color-page'>
+	<div class="container-principal" id="topo">
+		<header>
+			<header>
+				<div class="logo">
+				<a href="index.html">
+				<img src="imagens\logo-site.jpg" alt="logo site" width="200">
+				</a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li> 
+					<li><a href="clientes.html">Clientes</a></li> 
+					<li><a href="sobre.html">Sobre</a></li> 
+					<li><a href="#topo">Contato</a></li> 
+				</ul>
+			</nav>
+			</header>
+		</header>
+		<div class='img-titulo'><img src="imagens/contato.jpg" alt="imagem de contato"></div>
+		<section id="txt-contato">
+			<form name="meu_form" id="meu_form">
+				<p class="nome"> 
+					<label for="nome"><strong>Nome:</strong></label><br>
+					<input type="text" id="nomeId" placeholder="Ex: Fulano da Silva" required="required" name="nome" />
+				</p>
+				<p class="fone"> 
+					<label for="fone">Fone:</label><br>
+					<input type="phone" id="telefoneId" placeholder="(XX)xxxx-xxxx" name="fone" />
+				</p>
+				<p class="email">
+					<label for="email">E-Mail:</label><br>
+					<input type="email" id="emailid" placeholder="fularo@detalmail.com" name="email" required="required" /> 
+				</p>
+				<p>
+					<textarea placeholder="Messagem" required="required"></textarea>
+				</p>	
+				<button type="submit" form="meu_form">Enviar</button>
+				<button type="reset" form="meu_form">Apagar</button>
+			</form>
+			
+			<div id="conta-data">
+			<h3><i>Code - Desenvolvimento de Sites</i></h3> 
+			<h5><a href="https://www.google.com.br/maps/@-23.528735,-46.6608874,15z" target="_blank"><img src="imagens\endereco1.jpg" alt="endereco"><br>Rua não se sabe nº 171</h5></a>
+			<h5><img src="imagens\fone2.jpg" alt="telefone"><br>+ 55 (DDD) 9-9999-9999</h5>
+			<h5><a href="mailto:contato@code.com.br?subject=Dúvidas de serviço"><img src="imagens\email2.jpg" alt="email"><br>contato@code.com.br</h5></a>
+			<h5><a href="https://www.facebook.com/" target="_blank"><img src="imagens\facebook1.jpg" alt="facebook"><br>facebook.com\codedev</h5></a>
+			<h5><a href="https://www.instagram.com/" target="_blank"><img src="imagens\logo-instagram1.jpg" alt="instagram"><br>@codedev</h5></a>
+		</div>
+		</section>
+		<footer class="rodape-clientes">
+			&copy;Desenvolvido por Thiago		
+	   </footer>	
+</body>
+</html>
